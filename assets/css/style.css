@@ -18,10 +18,11 @@ html, body {
     overflow: hidden;
 }
 
+
 .block {
     position: relative;
-    width: 580px;
-    height: 460px;
+    width: 480px;
+    height: 600px;
     margin: 10px 300px 20px 80px;
 }
 
@@ -51,6 +52,30 @@ h1 {
     background: url(../images/img-05.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
+.block-6 {
+    background: url(../images/img-06.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block-7 {
+    background: url(../images/img-07.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block-8 {
+    background: url(../images/img-08.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block-9 {
+    background: url(../images/img-09.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block-10 {
+    background: url(../images/img-10.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block-11 {
+    background: url(../images/img-11.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
 
 .container {
     margin-top: 200px;
@@ -59,13 +84,19 @@ h1 {
 
 .block-1 h1,
 .block-3 h1,
-.block-5 h1 {
+.block-5 h1,
+.block-7 h1,
+.block-9 h1,
+.block-11 h1 {
     bottom: 0;
     right: -60px;
 }
 
 .block-2 h1,
-.block-4 h1 {
+.block-4 h1,
+.block-6 h1,
+.block-8 h1,
+.block-10 h1 {
     right: -60px;
 }
 
